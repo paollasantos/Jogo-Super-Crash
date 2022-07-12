@@ -1,0 +1,195 @@
+* {
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-board {
+    width: 100%;
+    height: 600px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: solid;
+    border-bottom: 15px solids;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background:linear-gradient(#061464, #eef5f8);
+    background-image: url(../images/Design\ sem\ nome\ \(3\).png);
+    background-color: rgb(2, 13, 43);
+}
+
+.logg {
+    height: 80px;
+    margin-left: 5px;
+    margin-top: -170px;
+}
+
+.nitro {
+    position: absolute;
+    bottom: 0;
+    width: 90px;
+    animation: nitro-animation 1.5s infinite linear;
+}
+
+.crash {
+    width: 130px;
+    position: absolute;
+    bottom: 0;
+}
+    
+
+.jump {
+    animation: jump 500ms ease-out;
+} 
+
+
+.clouds {
+    position: absolute;
+    width: 550px;
+    animation: clouds-animation 20s infinite linear;
+}
+
+.maca {
+    position: absolute;
+    width: 100px;
+    margin-left: 635px;
+    margin-top: 230px;
+    animation: clouds-animation 15s infinite linear;
+
+}
+
+.maca1 {
+    position: absolute;
+    width: 100px;
+    margin-left: 635px;
+    margin-top: 280px;
+    animation: clouds-animation 35s infinite linear;
+
+}
+
+.maca2 {
+    position: absolute;
+    width: 100px;
+    margin-left: 635px;
+    margin-top: 250px;
+    animation: clouds-animation 55s infinite linear;
+
+}
+
+
+@keyframes nitro-animation {
+    from {
+        right: -80px;
+    }
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+
+    0% {
+        bottom: 0;
+    }
+
+    40% {
+        bottom: 180px;
+    }
+    
+    50% {
+        bottom: 180px;
+    }
+
+    60% {
+        bottom: 180px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+
+}
+
+@keyframes clouds-animation {
+    from{
+        right: -550px;
+    }
+
+    to{
+        right: 100%;
+    }
+}
+
+.pontuacao {
+    color:#c5b8b8;
+    text-align: right;
+    font-size: 18px;
+    font-family: "sofia", sans-serif;
+    text-shadow: 3px 3px 3px black;
+    margin-top: 100px;
+    margin-right: 100px;
+    list-style-type: none;
+    width: 170px;
+    padding: 10px;
+    /* border: 2px solid rgb(220, 226, 255); */
+    margin: 15px;
+    margin-left: 1164px;
+    margin-top: 20px;
+    text-align: center;
+    /* border-radius: 50px; */
+    background-image: url(../images/pontuação2.png);
+    background-repeat: no-repeat;
+    height: 70px;
+    margin-top: 10px;
+}
+.pontuacao01 {
+    height: 60px;
+    margin-left: 1145px;
+    margin-top: 0;
+    opacity: 0.5;
+}
+
+.pontuacaoMaca {
+    margin-left: 1210px;
+    margin-top: -54px;
+    color: #c5b8b8;
+    list-style-type: none;
+    font-family: "sofia", sans-serif;
+    text-shadow: 3px 3px 3px black;
+    background-image: url(../images/maça.png);
+    height: 35px;
+    
+    
+}
+
+
+.retry {
+ width: 50px;
+ margin-left: 1280px;
+ margin-top: 450px;
+ position: absolute;
+ padding: 10px 0px;
+ color: black;  
+ text-align: center;
+ user-select: none;
+ cursor: pointer;
+ text-transform: verdana;
+ transition: background 15s;
+ border-radius: 30px;
+ opacity: 0.8;
+ border: 0px solid ;
+ -webkit-transition-duration: 0.4s;
+ transition-duration: 0.4s;
+}
+
+.retry:hover {
+    background-color: #c51313; 
+    color: #ffffff;
+}
+
+
+
+
+
+

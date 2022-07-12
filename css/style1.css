@@ -1,0 +1,87 @@
+body {
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: rgb(58, 57, 57);
+}
+
+header {
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-left: 15rem;
+}
+
+.jogar {
+    margin-top:3rem;
+    margin-left: 65rem;
+    display: flex;
+    font-size: 30px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.jogar {
+    position: relative;
+    padding: 10px 5px;
+    width: 100px;
+    color: #ffff;
+    background: #1d0942;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    transition: background 1s;
+
+}
+
+.jogar:hover {
+    background-color: #6635c2;
+}
+
+.card-text{
+    margin-left: 20rem;
+    font-size: 20px;
+    text-shadow: 0.09em 0.1em 0.03em black;
+    width: 55%;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: Verdana, sans-serif;
+    text-align: center;
+}
+
+
+.card-text1 {
+    margin-left: 20rem;
+    font-size: 20px;
+    text-shadow: 0.09em 0.1em 0.03em black;
+    width: 55%;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: Verdana;
+    text-align: center;
+}
+
+.card-text2  {
+    margin-left: 10rem;
+    font-size: 20px;
+    text-shadow: 0.09em 0.1em 0.03em black;
+    width: 55%;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: Verdana, sans-serif;
+    text-align: center;
+}
+
+.card-text3  {
+    margin-left: 10rem;
+    font-size: 20px;
+    text-shadow: 0.09em 0.1em 0.03em black;
+    width: 55%;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: Verdana;
+    text-align: center;
+}
+
+
